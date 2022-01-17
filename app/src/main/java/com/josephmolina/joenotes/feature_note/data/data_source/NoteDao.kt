@@ -1,7 +1,7 @@
 package com.josephmolina.joenotes.feature_note.data.data_source
 
 import androidx.room.*
-import com.josephmolina.joenotes.feature_note.domain.model.Note
+import com.josephmolina.joenotes.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 @Dao
