@@ -1,11 +1,9 @@
-package com.josephmolina.cleanarchitecturenoteapp.ui.theme
+package com.josephmolina.joenotes.ui.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import com.josephmolina.joenotes.ui.theme.DarkGray
-import com.josephmolina.joenotes.ui.theme.LightBlue
 
 private val DarkColorPalette = darkColors(
     primary = Color.White,

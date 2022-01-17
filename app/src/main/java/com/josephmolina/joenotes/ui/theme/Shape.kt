@@ -1,4 +1,4 @@
-package com.josephmolina.cleanarchitecturenoteapp.ui.theme
+package com.josephmolina.joenotes.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
