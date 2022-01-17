@@ -5,6 +5,7 @@ import androidx.room.Room
 import com.josephmolina.joenotes.feature_note.data.data_source.NoteDatabase
 import com.josephmolina.joenotes.feature_note.data.repository.NoteRepositoryImpl
 import com.josephmolina.joenotes.feature_note.domain.repository.NoteRepository
+import com.josephmolina.joenotes.feature_note.domain.use_case.AddNoteUseCase
 import com.josephmolina.joenotes.feature_note.domain.use_case.DeleteNoteUseCase
 import com.josephmolina.joenotes.feature_note.domain.use_case.GetNotesUseCase
 import com.josephmolina.joenotes.feature_note.domain.use_case.NoteUseCases
@@ -38,6 +39,6 @@ object AppModule {
     @Provides
     @Singleton
     fun providesNoteUseCases(repository: NoteRepository): NoteUseCases {
-        return NoteUseCases(GetNotesUseCase(repository), DeleteNoteUseCase(repository))
+        return NoteUseCases(GetNotesUseCase(repository), DeleteNoteUseCase(repository), AddNoteUseCase(repository))
     }
 }
