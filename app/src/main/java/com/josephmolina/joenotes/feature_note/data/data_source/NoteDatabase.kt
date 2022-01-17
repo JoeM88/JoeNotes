@@ -2,7 +2,7 @@ package com.josephmolina.joenotes.feature_note.data.data_source
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.josephmolina.joenotes.feature_note.domain.model.Note
+import com.josephmolina.joenotes.domain.model.Note
 
 @Database(
     entities = [Note::class],
